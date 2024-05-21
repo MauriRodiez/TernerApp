@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="TernerApp-Server:ejb exploded">
+    <output-path>$PROJECT_DIR$/TernerApp-Server/target/TernerApp-Server-1.0</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>TernerApp-Server</module>
+        <packaging>ejb</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="TernerApp-Server/ejb/EJB" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/TernerApp-Server/target/TernerApp-Server-1.0/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="TernerApp-Server" />
+    </root>
+  </artifact>
+</component>

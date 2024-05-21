@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="TernerApp-EE:ear">
+    <output-path>$PROJECT_DIR$/TernerApp-EE/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>TernerApp-EE</module>
+        <packaging>ear</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="TernerApp-EE-1.0.ear">
+      <element id="artifact" artifact-name="TernerApp-EE:ear exploded" />
+    </root>
+  </artifact>
+</component>

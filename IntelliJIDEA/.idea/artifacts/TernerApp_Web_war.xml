@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="TernerApp-Web:war">
+    <output-path>$PROJECT_DIR$/TernerApp-Web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>TernerApp-Web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="TernerApp-Web-1.0.war">
+      <element id="artifact" artifact-name="TernerApp-Web:war exploded" />
+    </root>
+  </artifact>
+</component>

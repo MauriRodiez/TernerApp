@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="TernerApp-Server:ejb">
+    <output-path>$PROJECT_DIR$/TernerApp-Server/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>TernerApp-Server</module>
+        <packaging>ejb</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="TernerApp-Server-1.0.jar">
+      <element id="artifact" artifact-name="TernerApp-Server:ejb exploded" />
+    </root>
+  </artifact>
+</component>
